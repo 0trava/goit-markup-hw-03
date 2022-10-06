@@ -81,14 +81,13 @@ li {
 
   .header-nav{
     display: flex;
-    align-items: center;
-  
+    align-items: center;  
   }
 
   .sity-nav{
       display: flex;
       margin-left: 93px;
-      margin-right: 334px;
+      margin-right: 344px;
   }
 
   .sity-nav .item + .item {
@@ -122,18 +121,17 @@ li {
 /* Контакти */
 
 .adr-nav{
-  list-style: none;
+  /* list-style: none; */
   display: flex;
 }
 
   .adr-nav .item + .item{
     margin-left: 50px;
   }
-  .nav-mail, .nav-tel {
-      display: block;
-      
 
+  .nav-mail, .nav-tel {
       color: var(--title-text-color); 
+
       text-decoration: none;   
       font-style: normal;
       font-weight: 500; 
@@ -155,14 +153,14 @@ li {
 /* Головний банер */
 
   .hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+
     background-color: var(--second-background);
-    padding-top: 200px ;
-    padding-bottom: 200px ;
 
     text-align: center;
   }
   .hero > h1 {
-
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -389,7 +387,7 @@ li {
   .portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
-    
+
     background-color: var(--second-text-color);
 
   }
