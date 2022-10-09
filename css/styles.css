@@ -169,6 +169,10 @@ li {
     color: var(--second-text-color);
   }
 
+  .hero-title{
+    margin-bottom: 30px;
+  }
+
 
 
 /* Кнопка на сторінці Студія */
@@ -199,11 +203,13 @@ li {
 
 
 /* Секція - Головні переваги */
-
+  .benef{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+  }
   .benefits{
     display: flex;
-    margin-top: 94px;
-    margin-bottom: 94px;
 
   }
 
@@ -246,14 +252,12 @@ li {
   }
 
   .caption-section{
-    margin-bottom: 94px;
+    padding-bottom: 94px;
   }
 
 
   .caption-img{
     display: flex;
-    gap: 30px;
-
   }
 
   .caption-img .item + .item{
@@ -272,7 +276,7 @@ li {
   .card-set{
     display: flex;
     gap: 30px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     margin-bottom: 0;
     margin-left: 0;
   
@@ -283,11 +287,7 @@ li {
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
   }
-  
 
-  .card-set .item + .item {
-    margin-left: 30px;
-  }
 
   .lead {
     margin-top: 30px;
@@ -339,6 +339,11 @@ li {
     color: var(--second-text-color);
   }
 
+  .footer-nav-mail{
+    margin-bottom: 9px;
+    margin-top: 9px;
+  }
+
   .footer-nav-mail:hover, .footer-nav-tel:hover, .footer-adr:hover,
   .footer-nav-mail:focus, .footer-nav-tel:focus, .footer-adr:focus {
     color: var(--accent-color);
@@ -366,7 +371,7 @@ li {
     flex-wrap: wrap;
   }
 
-  .flex-container > .item{
+  .flex-container  .item{
 
     width: 370px;
     margin-right: 30px;
@@ -376,11 +381,11 @@ li {
   }
 
 
-  .flex-container > .item:nth-child(3n){
+  .flex-container li:nth-child(3n) > .item{
     margin-right: 0;
   } 
 
-  .flex-container > .item.item:nth-last-child(-n + 3){
+  .flex-container li:nth-last-child(-n + 3) > .item{
     margin-bottom: 0;
   } 
 
@@ -407,12 +412,12 @@ li {
   
   }
 
-  .flex-container > .item:hover
-  .flex-container > .item:focus{
+  .flex-container > li > .item:hover
+  .flex-container > li > .item:focus{
     cursor: pointer;
   }
 
-  .flex-container > .item > a{
+  .flex-container > li > .item > a{
     text-decoration: none;
     
   }
