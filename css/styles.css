@@ -342,8 +342,7 @@ li {
     color: var(--second-text-color);
   }
 
-  .footer-nav-mail{
-    margin-bottom: 9px;
+  .footer-adr li + li{ 
     margin-top: 9px;
   }
 
